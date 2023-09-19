@@ -11,7 +11,7 @@
 * `POST /users/log-in`: Authenticates a user and sends an OTP.
 ```json
 {
-  "value":"valid email or phone",
+  "value":"provide valid email or phone",
 }
 ```
 * `POST /users/log-in?otp={otp}`: Pass the OTP as a request parem and returns the Authentication token.
